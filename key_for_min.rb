@@ -4,6 +4,6 @@
 def key_for_min_value(name_hash)
     if name_hash.length == 0
       return nil
-    elsif key_for_min_value(name_hash)
+    elsif a.sort_by { |key, value| value }.first
       return name_hash
 end
